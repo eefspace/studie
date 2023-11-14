@@ -30,7 +30,8 @@ td {
     padding: 10px;
     text-align: center;
     width: 25%;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Stijl voor de tabelcellen  Iedere cel heeft een andere achtergrondkleur (en is voorzien van een
@@ -118,8 +119,6 @@ afzonderlijk ID).*/
     background-color: #f1c40f;
 }
 
-/* Stijl voor de afbeeldingen in kolom 2 en 4 */
-#cell2 img, #cell4 img, #cell6 img, #cell8 img, #cell10 img, #cell12 img, #cell14 img, #cell16 img {
-    max-width: 100%;
-    height: auto;
-}
+
+  
+
