@@ -74,10 +74,47 @@ afzonderlijk ID).*/
     color: #d4ecce;
 }
 
+}
+#cell2 {
+    background-color: #8081aa;
+    color: #d4ecce;
+}
 
+}
+#cell4 {
+    background-color: #8081aa;
+    color: #d4ecce;
+}
 
-/* Achtergrondkleur voor cellen in kolom 2 en 4 */
-#cell2, #cell4, #cell6, #cell8, #cell10, #cell12, #cell14, #cell16 {
+}
+#cell6 {
+    background-color: #8081aa;
+    color: #d4ecce;
+}
+
+}
+#cell8 {
+    background-color: #8081aa;
+    color: #d4ecce;
+}
+
+}
+#cell10 {
+    background-color: #8081aa;
+    color: #d4ecce;
+}
+}
+#cell12 {
+    background-color: #8081aa;
+    color: #d4ecce;
+}
+
+}
+#cell14 {
+    background-color: #8081aa;
+    color: #d4ecce;
+}
+ #cell16 {
     background-color: #f1c40f;
 }
 
