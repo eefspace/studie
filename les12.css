@@ -29,13 +29,13 @@ td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
-    width: 25%;
+    width: auto;
     max-width: 100%;
-    height: auto;
+    height: 75%;
 }
 
 /* Stijl voor de tabelcellen  Iedere cel heeft een andere achtergrondkleur (en is voorzien van een
-afzonderlijk ID).*/
+afzonderlijk ID). In alle cellen in kolom 1 en 3 plaatst u een willekeurig woord. Ieder woord heeft een andere achtergrondkleur.*/
 
 
 #cell1 {
@@ -52,10 +52,12 @@ afzonderlijk ID).*/
     background-color: #ae6827;
     color: #fff;
 }
+
 #cell7 {
     background-color: #3b27ae;
     color: #ffffffb6;
 }
+
 #cell9 {
     background-color: #58ce89;
     color: #ffffff;
@@ -70,55 +72,57 @@ afzonderlijk ID).*/
     background-color: #ae2749;
     color: #ffffff8f;
 }
+
 #cell15 {
     background-color: #8081aa;
     color: #d4ecce;
 }
 
-}
+/* Stijl voor de tabelcellen Iedere cel heeft een andere achtergrondkleur (en is voorzien van een
+afzonderlijk ID). In alle cellen in kolom 2 en 4 plaatst u een afbeelding met een andere achtergrondkleur.*/
+
+
 #cell2 {
-    background-color: #FFFFFF;
+    background-color: #c05050;
     color: #d4ecce;
 }
 
-}
 #cell4 {
     background-color: #FFFFCC;
     color: #d4ecce;
 }
 
-}
 #cell6 {
     background-color: #FF99FF;
-    color: #d4ecce;
+    color: #30a586;
 }
 
-}
 #cell8 {
     background-color: #ff00ff;
-    color: #d4ecce;
+    color: #eccece;
 }
 
-}
 #cell10 {
     background-color: #000fff;
-    color: #d4ecce;
+    color: #40acc7;
 }
-}
+
 #cell12 {
     background-color: #33ffff;
     color: #d4ecce;
 }
 
-}
 #cell14 {
     background-color: #8081aa;
     color: #d4ecce;
 }
- #cell16 {
+
+#cell16 {
     background-color: #f1c40f;
 }
 
-
-  
-
+/* Stijl voor de afbeeldingen in kolom 2 en 4 */
+#cell2 img, #cell4 img, #cell6 img, #cell8 img, #cell10 img, #cell12 img, #cell14 img, #cell16 img {
+    max-width: 100%;
+    height: auto;
+}
