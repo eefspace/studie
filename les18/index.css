@@ -44,7 +44,7 @@ background-color: rgb(208, 232, 240);
    .col-12 {width: 100%;}
 }
    .header {
-       background-image: url("../studie/les18/afbeeldingen/AmsterdamAchtergrond.jpg"); /* Correcte syntax voor achtergrondafbeelding */
+       background-image: url("../les18/afbeeldingen/AmsterdamAchtergrond.jpg"); /* Correcte syntax voor achtergrondafbeelding */
        background-size: 100%;
        height: 400px;
        background-repeat: no-repeat;
