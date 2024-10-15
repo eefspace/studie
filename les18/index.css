@@ -1,82 +1,79 @@
- .col-9 {
-     background-color: rgb(208, 232, 240);
- }
+.col-9 {
+    background-color: rgb(208, 232, 240);
+}
 
- .container {
-     background-color: rgb(208, 232, 240);
- }
+.row {
+    clear: both;
+}
 
- .row {
-    clear:both;
-    display: inline-block;
- }
-
- .left {
+.left {
     float: left;
     width: 50%;
- }
+}
 
- .right {
+.right {
     float: right;
     width: 50%;
- }
+}
 
- @media only screen and (min-width: 768px) {
-     [class*="col-"] {
-         width: 100%;
-         padding: 15px;
-         margin: 10px;
-     }
+[class*="col-"] {
+    width: 100%;
+}
 
-     .col-2 {
-         width: 16.66%;
-         float: left;
-     }
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        padding: 15px;
+    }
 
-     .col-9 {
-         width: 75%;
-         float: right;
-     }
- }
+    .col-2 {
+        width: 16.66%;
+        float: left;
+    }
 
- .header {
-     background-image: url("./AmsterdamAchtergrond.jpg");
-     background-size: cover;
-     height: 400px;
-     background-repeat: no-repeat;
-     background-color: olive;
-     color: white;
-     padding: 15px;
-     font-family: Georgia, 'Times New Roman', Times, serif;
- }
+    .col-9 {
+        width: 75%;
+        float: right;
+    }
+}
 
- .menu ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
- }
+.header {
+    background-image: url("./AmsterdamAchtergrond.jpg");
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-color: olive;
+    color: white;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
- .menu li {
-     padding: 8px;
-     margin-bottom: 7px;
-     background-color: olive;
-     color: white;
- }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
- .menu li:hover {
-     background-color: green;
- }
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: olive;
+    color: white;
+}
 
- .logo img {
-     max-width: 100%;
-     height: 200px;
- }
+.menu li:hover {
+    background-color: green;
+}
 
- .footer {
-     clear: both;
-     width: 100%;
-     background-color: olive;
-     color: white;
-     padding: 15px;
-     text-align: center;
- }
+.logo img {
+    max-width: 100%;
+    height: 200px;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    background-color: olive;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
